@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Releway', 'Open Sans';
+    color: #08A6E4;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1352px;
+}
+
