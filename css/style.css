@@ -4,7 +4,9 @@
 
 :root {
     font-family: 'Releway', 'Open Sans';
-    color: #08A6E4;
+    --color-primary: #08A6E4;
+    color;
+
 }
 
 .container {
