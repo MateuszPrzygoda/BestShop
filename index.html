@@ -1,19 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Best Shop</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div class="container">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <a href="/" class="page-logo"> BestShop </a>
 
-</div>
-</body>
+        <nav class="page-nav">
+          <ul class="page-nav-list">
+            <li><a href="#why-us">Why us</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#pricing">Prices</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="container">
+        <h1 class="banner-title">Sell More!</h1>
+        <p class="banner-text">
+          Open shop on our platform and increase your sales
+        </p>
+
+        <div class="banner-btn">
+          <a href="#" class="btn">Open your shop</a>
+        </div>
+      </div>
+      <img src="./assets/Background.png" alt="bacgkground image" />
+    </section>
+
+    <section class="statistics" id="why-us">
+      <h2 class="statistics-header">
+        The most popular sales platform in country
+      </h2>
+      <div class="statistics-columns container">
+        <div class="column column1 person">
+          <div class="icon person-icon">
+            <img
+              src="./assets/Person.svg"
+              alt="person icon"
+              class="person-icon-img"
+            />
+          </div>
+          <span class="numbers">100000+</span>
+          <span class="column-text">daily entries</span>
+        </div>
+
+        <div class="column column2 eye">
+          <div class="icon eye-icon">
+            <img src="./assets/Eye.svg" alt="eye icon" class="eye-icon-img" />
+          </div>
+          <span class="numbers">2000000+</span>
+          <span class="column-text">seen products every day</span>
+        </div>
+
+        <div class="column column3 catalog">
+          <div class="icon catalog-icon">
+            <img
+              src="./assets/Catalog.svg"
+              alt="catalog icon"
+              class="catalog-icon-img"
+            />
+          </div>
+          <span class="numbers">10000+</span>
+          <span class="column-text">added posts daily</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits-background" id="benefits">
+      <div class="benefits-section container">
+        <div class="box1 container">
+          <div class="box1-text">
+            <h2>Be always first</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+            <span class="line1"></span>
+          </div>
+          <div class="box1-img">
+            <div class="box1-redshape"></div>
+            <img src="./assets/Macbook.png" alt="macbook" class="macbook" />
+          </div>
+        </div>
+        <div class="box2 container">
+          <div class="box2-img">
+            <div class="box2-blueshape"></div>
+            <img src="./assets/iPhone.png" alt="iPhone" class="iphone" />
+          </div>
+          <div class="box2-text">
+            <h2>Your shop is where you are!</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+            <span class="line2"></span>
+          </div>
+        </div>
+        <div class="box3 container">
+          <div class="box3-text">
+            <h2>Increase recognition your brand!</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+            <span class="line3"></span>
+          </div>
+          <div class="box3-img">
+            <div class="box3-green">
+              <img src="./assets/Trumpet.png" alt="trumpet" class="trumpet" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing-section container" id="pricing">
+      <h2>Pricing</h2>
+      <div class="pricing-columns">
+        <div class="pricing-column pricing-column1">
+          <h3 class="pricing-title">Basic</h3>
+          <span class="price price1">$0</span>
+          <ul class="pricing-list list1">
+            <li class="pricing-item">100 MB HDD</li>
+            <li class="pricing-item">1 Subdomain</li>
+            <li class="pricing-item">2 E-mails</li>
+            <li class="pricing-item not">Two years license</li>
+            <li class="pricing-item not">Full support</li>
+          </ul>
+          <div class="pricing-btn pricing-btn1"><a href="/">Begin</a></div>
+        </div>
+
+        <div class="pricing-column pricing-column2">
+          <h3 class="pricing-title title2">Professional</h3>
+          <span class="price price2">$25</span>
+          <span class="limited-offer">Limited offer</span>
+          <ul class="pricing-list list2">
+            <li class="pricing-item">500 MB HDD</li>
+            <li class="pricing-item">2 Subdomains</li>
+            <li class="pricing-item">5 E-mails</li>
+            <li class="pricing-item">One year license</li>
+            <li class="pricing-item not">Full support</li>
+          </ul>
+          <div class="pricing-btn pricing-btn2"><a href="/">Begin</a></div>
+        </div>
+
+        <div class="pricing-column pricing-column3">
+          <h3 class="pricing-title title2">Premium</h3>
+          <span class="price price3">$60</span>
+          <span class="limited-offer">Limited offer</span>
+          <ul class="pricing-list list3">
+            <li class="pricing-item">2 GB HDD</li>
+            <li class="pricing-item">5 Subdomains</li>
+            <li class="pricing-item">20 E-mails</li>
+            <li class="pricing-item">Two years license</li>
+            <li class="pricing-item">Full support</li>
+          </ul>
+          <div class="pricing-btn pricing-btn3"><a href="/">Begin</a></div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section container" id="contact">
+      <div class="contact-leftside">
+        <h3>Any questions?</h3>
+        <span>Leave your email address or call us!</span>
+        <div class="contact-links">
+          <div class="contact-email">
+            <img src="./assets/Mail Icon.svg" alt="Mail icon" />
+            <a href="malilto:info@bestshop.xyz"> info@bestshop.xyz </a>
+          </div>
+          <div class="contact-phone">
+            <img src="./assets/Phone Icon.svg" alt="Phone icon" />
+            <a href="tel:123 456 789"> 123 456 789</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-rightside">
+        <label for="name"> name </label>
+        <input type="text" name="name" class="name" />
+        <label for="name"> e-mail </label>
+        <input type="text" name="e-mail" class="email" />
+        <label class="checkbox">
+          <input type="checkbox" />
+          <span></span>
+
+          I hereby give consent for my personal data included in my application
+          to be processed for the purposes of the recruitment process under the
+          European Parliament’s and Council of the European Union Regulation on
+          the Protection of Natural Persons as of 27 April 2016, with regard to
+          the processing of personal data and on the free movement of such data,
+          and repealing Directive 95/46/EC (Data Protection Directive)
+        </label>
+        <button class="btn-send">Send</button>
+      </div>
+    </section>
+    <footer>
+      <div class="footer container">
+        <div class="footer-leftside">
+          <a href="/" class="page-logo"> BestShop </a>
+          <span class="copyright"
+            >© 2019 BestShop LTD, All Rights Reserved</span
+          >
+        </div>
+
+        <div class="footer-rightside">
+          <a href="/" class="page-logo">
+            <img src="./assets/Twitter.svg" alt="go to twitter" />
+          </a>
+          <a href="/" class="page-logo">
+            <img src="./assets/Facebook.svg" alt="go to facebook" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
